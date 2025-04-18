@@ -36,6 +36,7 @@
 
   /* Spacing */
   --s-2: 0.125rem;
+  --s-8: 0.5rem;
   --s-11: 0.688rem;
   --s-13: 0.8125rem;
   --s-16: 1rem;
@@ -93,6 +94,7 @@ main {
 
 .txt-p--2 {
   font-size: var(--s-13);
+  /* margin-bottom: var(--s-8); testing */
 }
 
 .txt-p--3 {
@@ -206,6 +208,9 @@ main {
 
 .card-author-text {
   grid-area: 1 / 2 / 3 / 5;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .quote {
